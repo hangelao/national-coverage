@@ -1,0 +1,74 @@
+# Inputs and research data (this repository is code-only)
+data/
+external_inputs/
+*.csv
+*.csv.gz
+*.parquet
+*.nc
+*.netcdf
+*.pkl
+*.pickle
+*.xlsx
+*.xls
+*.tif
+*.tiff
+*.geojson
+*.shp
+*.gpkg
+
+# Generated research outputs
+results/
+results_*/
+outputs/
+figures/
+tables/
+generated_figures/
+generated_tables/
+capacities/
+checkpoints/
+optimization/
+profiles/
+*.h5
+*.hdf5
+*.lp
+*.mps
+*.sol
+*.ilp
+*.jsonl
+*.log
+*.out
+*.err
+*.stdout
+*.stderr
+
+# Python environments, caches, and notebooks
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Secrets and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.lic
+credentials.*
+secrets.*
+
+# Local solver and profiling artefacts
+gurobi.log
+*.prm
+*.profile

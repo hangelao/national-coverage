@@ -1,0 +1,21 @@
+# Scientific/model dependencies used by the final Paper 2 workflows.
+numpy==2.5.1
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+xarray==2026.4.0
+pypsa==1.2.4
+linopy==0.8.0
+gurobipy==13.0.2
+
+# Demand/market preparation and plotting.
+matplotlib==3.11.0
+geopandas==1.1.4
+shapely==2.1.2
+pyproj==3.7.2
+rasterio==1.5.0
+openpyxl==3.1.5
+
+# Optional road-distance preparation.
+requests>=2.31
+tqdm==4.68.3
